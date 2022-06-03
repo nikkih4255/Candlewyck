@@ -6,7 +6,7 @@ const Weddings = () => {
   return (
     <Container>
       <Row className="row-content">
-        <Col className="col-md-8">
+        <Col className="col-md-8 center_text">
           <h1>Weddings at Candlewyck Cove</h1>
           <h2>Prices for Peak Season (March 14 - October 1)</h2>
           <h4>

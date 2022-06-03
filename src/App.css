@@ -55,7 +55,7 @@ body {
 }
 
 #gaze_dock {
-  height: 700px;
+  height: 680px;
 }
 
 .intro {
@@ -85,4 +85,44 @@ body {
 
 .ReviewsCarousel .carousel .slide img {
   width: auto;
+}
+
+.intro {
+  line-height: 2rem;
+}
+
+.CandlewyckLogo {
+  padding-right: 3rem;
+}
+
+.AccommodationsCarousel {
+  max-width: 533px;
+  margin: auto;
+}
+
+.AccCarouselImgDiv {
+  max-width: 533px;
+  max-height: 400px;
+}
+
+.AccommodationsCarousel .carousel .slide {
+  display: flex;
+  justify-content: center;
+}
+
+.AccommodationsCarousel .carousel-slider {
+  width: auto;
+}
+
+.AccPrice {
+  margin-bottom: 0;
+}
+
+.AccomDiv {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.AccTopRow {
+  margin-bottom: 3rem;
 }

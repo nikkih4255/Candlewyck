@@ -22,6 +22,7 @@ const ContactForm = () => {
       validate={validateContactForm}
     >
       <Form>
+        <h3 className="center_text">Contact Us</h3>
         <FormGroup row>
           <Label htmlFor="firstName" md="2">
             First Name
@@ -93,7 +94,7 @@ const ContactForm = () => {
           </Col>
         </FormGroup>
         <FormGroup row>
-          <Col md="5">
+          <Col className="mx-auto" md="8">
             <Button type="submit" color="primary">
               Submit
             </Button>

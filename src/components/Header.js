@@ -22,7 +22,7 @@ const Header = () => {
         <img
           src={CandlewyckLogo}
           alt="candlewyck logo"
-          className="float-start"
+          className="float-start CandlewyckLogo"
           height="70"
         />
       </NavbarBrand>
@@ -166,9 +166,17 @@ const Header = () => {
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
-          <NavItem className="btn btn-md btn-primary">Book Now</NavItem>
         </Nav>
       </Collapse>
+      <Nav className="me-5">
+        <a
+          className="btn btn-primary text-nowrap"
+          href="https://apps.gracesoft.com/PMS/EasyWebRez/roomdetails/306"
+          target="_#"
+        >
+          Book Now
+        </a>
+      </Nav>
     </Navbar>
   );
 };

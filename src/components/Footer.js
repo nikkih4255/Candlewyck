@@ -6,7 +6,7 @@ const footer = () => {
     <footer className="site-footer">
       <Container>
         <Row>
-          <Col md="3" className="text-center">
+          <Col md="4" className="text-center">
             <a role="button" className="btn btn-link" href="tel:+19187863636">
               <i className="fa fa-phone" /> 1.918.786.3636
             </a>
@@ -19,7 +19,7 @@ const footer = () => {
               <i className="primary" /> Contact Us
             </a>
           </Col>
-          <Col md="3" className="text-center">
+          <Col md="4" className="text-center">
             <h6>Candlewyck Cove Resort</h6>
             <address>
               59800 East 307 Lane
@@ -27,7 +27,7 @@ const footer = () => {
               Grove, Ok 74344
             </address>
           </Col>
-          <Col xs="6" sm="3" className="text-center">
+          <Col md="4" className="text-center">
             <a
               className="btn btn-social-icon btn-facebook"
               href="https://www.facebook.com/candlewyckcove2017/"

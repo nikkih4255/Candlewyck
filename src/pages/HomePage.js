@@ -9,7 +9,6 @@ import {
   CarouselItem, */
 } from "reactstrap";
 import { Component } from "react";
-import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import GazeboDock from "../app/img/gaze_dock.jpg";
@@ -32,6 +31,7 @@ class DemoCarousel extends Component {
           <img
             src={Stars}
             className="justify-content-center align-items-center"
+            alt="stars"
           />
           <p className="review">
             <br />
@@ -49,6 +49,7 @@ class DemoCarousel extends Component {
           <img
             src={Stars}
             className="justify-content-center align-items-center"
+            alt="stars"
           />
           <p className="review">
             Grove does have a shortage of hotels in town so these nightly
@@ -66,6 +67,7 @@ class DemoCarousel extends Component {
           <img
             src={Stars}
             className="justify-content-center align-items-center"
+            alt="stars"
           />
           <p className="review">
             The customer service is over the top! Our townhome was beautiful,
@@ -83,6 +85,7 @@ class DemoCarousel extends Component {
           <img
             src={Stars}
             className="justify-content-center align-items-center"
+            alt="stars"
           />
           <p className="review">
             House #3 was great for our party of 10, it had everything you could
@@ -100,6 +103,7 @@ class DemoCarousel extends Component {
           <img
             src={Stars}
             className="justify-content-center align-items-center"
+            alt="stars"
           />
           <p className="review">
             I don't think there are enough descriptive words to say how awesome
@@ -141,16 +145,17 @@ const HomePage = () => {
         recipient of the following tourism awards:
       </h4>
       <p className="intro center_text">
-        The RedBud Award: Oklahoma Travel Industry’s top award for Outstanding
-        Resort and Lodging Property for 2019
+        <strong>The Merit Award:</strong> Oklahoma Governor’s Conference on
+        Tourism Award for Outstanding Resort and Lodging Property
         <br />
-        The Merit Award: Oklahoma Governor’s Conference on Tourism Award for
-        Outstanding Resort and Lodging Property
+        <strong>The RedBud Award:</strong> Oklahoma Travel Industry’s top award
+        for Outstanding Resort and Lodging Property for 2019
         <br />
-        Traveler’s Choice Award: Trip Advisor’s award given to the top 25 Hotels
-        in the USA.
+        <strong>Traveler’s Choice Award:</strong> Trip Advisor’s award given to
+        the top 25 Hotels in the USA.
         <br />
-        Certificate of Excellence Award: Trip Advisor’s award for 5 star ranking
+        <strong>Certificate of Excellence Award:</strong> Trip Advisor’s award
+        for 5 star ranking
       </p>
       <Row>
         <Col className="center_text">

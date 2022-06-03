@@ -9,6 +9,7 @@ import GuestInfo from "./pages/GuestInfo";
 import GcMassage from "./pages/GcMassage";
 import HomePage from "./pages/HomePage";
 import ContactForm from "./components/ContactForm";
+import Cabins from "./pages/Cabins";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="guestinfo" element={<GuestInfo />} />
         <Route path="gcmassage" element={<GcMassage />} />
         <Route path="contactform" element={<ContactForm />} />
+        <Route path="cabins" element={<Cabins />} />
       </Routes>
       <Footer />
     </div>

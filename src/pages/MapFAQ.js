@@ -14,7 +14,7 @@ const MapFAQ = () => {
     <Container>
       <Row>
         <Col className="col-md-6">
-          <img src={ResortMap} alt="resort map" />
+          <img src={ResortMap} alt="resort map" className="img-fluid" />
         </Col>
         <Col className="col-md-5">
           <h5>Frequently Asked Questions</h5>
