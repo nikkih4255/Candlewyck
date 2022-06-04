@@ -126,4 +126,72 @@ export const CABINS = [
       },
     ],
   },
+  {
+    Id: 2,
+    Title: "One Bedroom Cabins with Hot Tubs",
+    Info: "Our One Bedroom Cabins are perfect for 1-2 people. They're the perfect place to relax, renew and unwind. Each cabin has a king bed, fully equipped kitchen, fireplace, and Jacuzzi tub. They also have private decks with a hot tub and eating area which overlooks a greenbelt. The cabins have an outdoor grill, front patio and are located across from the swimming pool. For a small fee, we can place champagne and/or flowers in the room.",
+    Includes: [
+      "Across from pool",
+      "Deck",
+      "Propane grill",
+      "Outdoor hot tub",
+      "Full kitchen",
+      "Coffee maker",
+      "Satellite TV",
+      "Linens",
+      "King bed",
+      "Jacuzzi tub",
+      "Wireless internet",
+      "Sleeps 2",
+    ],
+    Carousels: [
+      {
+        Id: 1,
+        Title: "Cabin 3",
+        Images: [
+          "/cabins/1.cabin.3.2.jpg",
+          "/cabins/1.cabin.3.4.jpg",
+          "/cabins/1.cabin.3.5.jpg",
+          "/cabins/1.cabin.3.6.jpg",
+          "/cabins/1.cabin3.3.jpg",
+        ],
+      },
+      {
+        Id: 2,
+        Title: "Cabin 4",
+        Images: [
+          "/cabins/1cabin4.1.jpg",
+          "/cabins/1.cabin.4.2.jpg",
+          "/cabins/1.cabin.4.3.jpg",
+          "/cabins/1.cabin.4.4.jpg",
+        ],
+      },
+    ],
+    Rates: [
+      {
+        Id: "0",
+        Header: "On season room rates",
+        Body: {
+          Season: "(March, April, May, June, August & September)",
+          Price: ["1-6 Nights: $225", "7+ Nights: $195"],
+        },
+      },
+      {
+        Id: "1",
+        Header: "Peak season room rates",
+        Body: {
+          Season: "(July)",
+          Price: ["1-6 Nights: $260", "7+ Nights: $235"],
+        },
+      },
+      {
+        Id: "2",
+        Header: "Off season",
+        Body: {
+          Season: "(October to February)",
+          Price: ["1-2 Nights: $190", "3-6 Nights: $140", "7+ Nights: $125"],
+        },
+      },
+    ],
+  },
 ];

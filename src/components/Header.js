@@ -40,12 +40,36 @@ const Header = () => {
               <i className="fa fa-bed fa-lg" /> Accommodations
             </DropdownToggle>
             <DropdownMenu end>
-              <DropdownItem>Cabins</DropdownItem>
-              <DropdownItem>Houses</DropdownItem>
-              <DropdownItem>Townhouses</DropdownItem>
-              <DropdownItem>King Suites</DropdownItem>
-              <DropdownItem>Junior Suites</DropdownItem>
-              <DropdownItem>Hotel Rooms</DropdownItem>
+              <DropdownItem>
+                <a className="dropdown-item" href="../Cabins">
+                  Cabins
+                </a>
+              </DropdownItem>
+              <DropdownItem>
+                <a className="dropdown-item" href="../Houses">
+                  Houses
+                </a>
+              </DropdownItem>
+              <DropdownItem>
+                <a className="dropdown-item" href="../Townhouses">
+                  Townhouses
+                </a>
+              </DropdownItem>
+              <DropdownItem>
+                <a className="dropdown-item" href="../KingSuites">
+                  King Suites
+                </a>
+              </DropdownItem>
+              <DropdownItem>
+                <a className="dropdown-item" href="../JuniorSuite">
+                  Junior Suites
+                </a>
+              </DropdownItem>
+              <DropdownItem>
+                <a className="dropdown-item" href="../Hotel">
+                  Hotel Rooms
+                </a>
+              </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
           <NavItem>

@@ -10,6 +10,11 @@ import GcMassage from "./pages/GcMassage";
 import HomePage from "./pages/HomePage";
 import ContactForm from "./components/ContactForm";
 import Cabins from "./pages/Cabins";
+import Hotel from "./pages/Hotel";
+import JuniorSuite from "./pages/JuniorSuite";
+import Houses from "./pages/Houses";
+import KingSuites from "./pages/KingSuites";
+import Townhouses from "./pages/Townhouses";
 
 function App() {
   return (
@@ -24,6 +29,11 @@ function App() {
         <Route path="gcmassage" element={<GcMassage />} />
         <Route path="contactform" element={<ContactForm />} />
         <Route path="cabins" element={<Cabins />} />
+        <Route path="hotel" element={<Hotel />} />
+        <Route path="juniorsuite" element={<JuniorSuite />} />
+        <Route path="houses" element={<Houses />} />
+        <Route path="kingsuites" element={<KingSuites />} />
+        <Route path="townhouses" element={<Townhouses />} />
       </Routes>
       <Footer />
     </div>
