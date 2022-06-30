@@ -23,6 +23,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  #ffc322
+  #d5cfb3b6 
 }
 
 .App-link {
@@ -40,17 +42,17 @@
 */
 
 .navbar {
-  background-image: linear-gradient(to right, white, #ffc322);
+  background-image: linear-gradient(to top, #f8f0d8, #f9d05f);
 }
 
 .site-footer {
-  background-image: linear-gradient(to right, white, #007da5);
+  background-image: linear-gradient(to bottom, #f8f0d8, #f9d05f);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
 body {
-  background-color: #d5cfb3b6;
+  background-color: #f8f0d8;
   font-family: Source Sans Pro, sans-serif;
 }
 
